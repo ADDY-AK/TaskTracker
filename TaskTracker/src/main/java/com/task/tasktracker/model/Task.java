@@ -18,9 +18,9 @@ public class Task {
 
     }
 
-    public Task(String description, Integer id, TaskStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
-        this.description = description;
+    public Task( Integer id, String description, TaskStatus status, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
+        this.description = description;
         this.status = status;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
